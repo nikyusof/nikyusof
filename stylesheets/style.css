@@ -1,0 +1,386 @@
+body {
+	overflow-x: hidden;
+}
+
+p {
+	font-size: 1em;
+	font-family: "Avenir Next";
+	color: white;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+	outline: 0;
+	color: white;
+	text-decoration: none;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-family: "Avenir Next";
+	font-weight: 500;
+}
+
+.intro-header {
+	padding-top: 93vh;
+	padding-bottom: 20px;
+	background: url(../images/icon.png) no-repeat center center;
+	background-size: center;
+	width: 100%;
+	text-align: center;
+	background-color: #BC6565;
+}
+
+@media (min-width: 768px) {
+	.intro-header .container {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		background-image: url(../images/icon.png) no-repeat center center;
+		background-size: center;
+		text-align: center;
+	}
+}
+
+section {
+	padding: 100px 0;
+}
+
+section h2 {
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 20px;
+	font-size: 2em;
+	color: white;
+}
+
+section.education {
+	background: #4E647C;
+	padding: 40px;
+}
+
+.boston {
+	margin-bottom: 10px;
+	display: block;
+	width: 320px;
+	height: 320px;
+	background: transparent url('../images/boston university.png') center top no-repeat;
+}
+
+.boston:hover {
+	background-image: url('../images/boston university-inverse.png');
+}
+
+.purdue {
+	margin-bottom: 10px;
+	display: block;
+	width: 320px;
+	height: 320px;
+	background: transparent url('../images/purdue university.png') center top no-repeat;
+}
+
+.purdue:hover {
+	background-image: url('../images/purdue university-inverse.png');
+}
+
+section.about {
+	background: #BC6565;
+	padding: 40px;
+}
+
+section.skills {
+	background: #4E647C;
+	padding: 40px;
+}
+
+.java {
+	margin-bottom: 10px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: transparent url('../images/java.png') center top no-repeat;
+}
+
+.java:hover {
+	background-image: url('../images/java-inverse.png');
+}
+
+.html5 {
+	margin-bottom: 10px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: transparent url('../images/html5.png') center top no-repeat;
+}
+
+.html5:hover {
+	background-image: url('../images/html5-inverse.png');
+}
+
+.css3 {
+	margin-bottom: 10px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: transparent url('../images/css3.png') center top no-repeat;
+}
+
+.css3:hover {
+	background-image: url('../images/css3-inverse.png');
+}
+
+.jquery {
+	margin-bottom: 10px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: transparent url('../images/jquery.png') center top no-repeat;
+}
+
+.jquery:hover {
+	background-image: url('../images/jquery-inverse.png');
+}
+
+.ajax {
+	margin-bottom: 10px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: transparent url('../images/ajax.png') center top no-repeat;
+}
+
+.ajax:hover {
+	background-image: url('../images/ajax-inverse.png');
+}
+
+.swift {
+	margin-bottom: 10px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: transparent url('../images/swift.png') center top no-repeat;
+}
+
+.swift:hover {
+	background-image: url('../images/swift-inverse.png');
+}
+
+.objective-c {
+	margin-bottom: 10px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: transparent url('../images/objective-c.png') center top no-repeat;
+}
+
+.objective-c:hover {
+	background-image: url('../images/objective-c-inverse.png');
+}
+
+.play {
+	margin-bottom: 10px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: transparent url('../images/play.png') center top no-repeat;
+}
+
+.play:hover {
+	background-image: url('../images/play-inverse.png');
+}
+
+.arduino {
+	margin-bottom: 10px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: transparent url('../images/arduino.png') center top no-repeat;
+}
+
+.arduino:hover {
+	background-image: url('../images/arduino-inverse.png');
+}
+
+.sql {
+	margin-bottom: 10px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: transparent url('../images/sql.png') center top no-repeat;
+}
+
+.sql:hover {
+	background-image: url('../images/sql-inverse.png');
+}
+
+.c {
+	margin-bottom: 10px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: transparent url('../images/c.png') center top no-repeat;
+}
+
+.c:hover {
+	background-image: url('../images/c-inverse.png');
+}
+
+.python {
+	margin-bottom: 10px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: transparent url('../images/python.png') center top no-repeat;
+}
+
+.python:hover {
+	background-image: url('../images/python-inverse.png');
+}
+
+.raspberrypi {
+	margin-bottom: 10px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: transparent url('../images/raspberrypi.png') center top no-repeat;
+}
+
+.raspberrypi:hover {
+	background-image: url('../images/raspberrypi-inverse.png');
+}
+
+.matlab {
+	margin-bottom: 10px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: transparent url('../images/matlab.png') center top no-repeat;
+}
+
+.matlab:hover {
+	background-image: url('../images/matlab-inverse.png');
+}
+
+.git {
+	margin-bottom: 10px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: transparent url('../images/git.png') center top no-repeat;
+}
+
+.git:hover {
+	background-image: url('../images/git-inverse.png');
+}
+
+section.work {
+	background: #BC6565;
+	padding: 40px;
+}
+
+section.work h3,
+section.work h4 {
+	font-family: "Avenir Next";
+	color: #4E647C;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+}
+ 
+section.contact {
+	background: #4E647C;
+	padding: 40px;
+}
+
+section.contact form {
+    margin-bottom: 40px;
+}
+
+section.contact form p,
+section.contact label,
+section.contact legend { 
+    font: normal 13px/23px;
+    font-family: "Avenir Next";
+}
+
+section.contact label {
+    display: inline-block;
+    float: left;
+    width: 155px;
+    margin: 6px 0;
+}
+
+section.contact input, 
+section.contact textarea, 
+section.contact select { 
+    width: 280px; 
+    padding: 14px 20px; 
+    color: #eee; 
+    background: #333;
+    margin: 0 0 35px 0; 
+    border: 0;
+    outline: none;
+}
+
+section.contact input:focus, 
+section.contact textarea:focus, 
+section.contact select:focus { 
+    color: #fff;
+    background-color: #df4244;
+}
+
+section.contact button.submit {
+    font: bold 20px/30px ;
+    font-family: "Avenir Next";
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: block;
+    cursor: pointer;
+    color:#fff;
+    background:#df4244;
+    padding: 20px 28px;
+    border: none;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+
+section.contact button.submit:hover { 
+    color: #df4244;
+    background: #fff; 
+}
+
+section.contact span.required { 
+    color: #df4244;
+    font-size: 13px;  
+}
+
+
+#contact-warning,
+#contact-success {
+    font: normal 12px/23px;
+    font-family: "Avenir Next";
+}
+
+#contact-warning {
+    display: none;
+    color: #fff;
+    background: #dd3333;
+    padding: 20px 25px;
+    margin-bottom: 30px;
+}
+
+#contact-success {
+    display: none;
+    color: #77aa44;
+    background: #111;
+    padding: 20px 25px;
+    margin-bottom: 30px;
+}
+
+.fa-stack .fa:hover {
+	color: black;
+}
